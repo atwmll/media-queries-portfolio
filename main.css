@@ -1,0 +1,53 @@
+* {
+  background-color: #d0ede8;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  border: 25px;
+  border-style: solid;
+  border-color: #718dbc;
+  padding: 25px;
+  margin: 0px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github-button {
+  text-align: left;
+}
+
+.home-title {
+  font-size: 3em;
+  color: #214a8c;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.small-home-title {
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+}
+
+.list-title {
+  color: #214a8c;
+  font-size: 2em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.list-align {
+  text-align: left;
+}
+
+.list {
+  color: #214a8c;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
+}
+
+.list-ind {
+  color: #434f63;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1em;
+}
