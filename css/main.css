@@ -73,3 +73,8 @@
   font-size: 2em;
   text-align: left;
 }
+
+.thumb {
+  height: 100px;
+  width: 100px;
+}
