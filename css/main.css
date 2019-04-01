@@ -78,3 +78,48 @@
   height: 100px;
   width: 100px;
 }
+
+/* Flexbox code starts here */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  flex-direction: row;
+  background-color: #e5fff7;
+  border: 2px;
+}
+
+.navbar > div {
+  background-color: #a4d6c7;
+  width: auto;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 90px;
+  font-size: 20px;
+}
+
+div > a {
+  background-color: #a4d6c7;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #718dbc;
+}
+
+.flex > div {
+  background-color: #a4d6c7;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 30px;
+}
