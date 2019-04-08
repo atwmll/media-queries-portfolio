@@ -6,10 +6,16 @@
     <meta name="description" content="Portfolio">
     <meta name="author" content="Austin Malone">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Asap|Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Fjalla+One|Permanent+Marker" rel="stylesheet">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body>
+    <header>
+      <div class="header">
+        <p class="header-text">Linux Distributions</p>
+        <p class="header-subtext">Some general information on common Linux distributions</p>
+      </div>
+    </header>
     <div class="navbar">
       <div><a href="index.html">Home</a></div>
       <div><a href="resume.html">Resum&eacute;</a></div>
@@ -20,15 +26,103 @@
       <div><a href="git.html">Git Repository</a></div>
     </div>
     <br>
-    <div class="flex">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
-      <div>8</div>
+    <div class="sidebar">
+      <a href="https://www.gnu.org/" target="_blank">GNU</a>
+      <a href="https://www.kernel.org/" target="_blank">Kernels</a>
+      <a href="https://www.fsf.org/" target="_blank">FSF</a>
     </div>
+    <div class="flex">
+      <div>
+        <a href="https://www.archlinux.org/" target="_blank">
+          <img src="img/archlogo.png" alt="Arch Linux Logo" class="distro-image">
+        </a>
+        <p class="distro-list-title">Overview</p>
+        <ul class="distro-list">
+          <li class="distro-list">Simple, add-what-you-need bleeding edge distribution, features large user software repository</li>
+        </ul>
+        <p class="distro-list-title">Package Manager</p>
+        <ul class="distro-list">
+          <li class="distro-list">Pacman</li>
+        </ul>
+        <p class="distro-list-title">Kernel</p>
+        <ul class="distro-list">
+          <li class="distro-list">Latest Linux Kernel or custom</li>
+        </ul>
+        <p class="distro-list-title">Userland</p>
+        <ul class="distro-list">
+          <li class="distro-list">GNU</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://www.debian.org/" target="_blank">
+          <img src="img/debianlogo.png" alt="Debian Linux Logo" class="distro-image">
+        </a>
+        <p class="distro-list-title">Overview</p>
+        <ul class="distro-list">
+          <li class="distro-list">Generally stable distro, with unstable and testing branches, lots of support, the daddy of most Linux distributions, good for home desktop and office machines</li>
+        </ul>
+        <p class="distro-list-title">Package Manager</p>
+        <ul class="distro-list">
+          <li class="distro-list">dpkg, APT</li>
+        </ul>
+        <p class="distro-list-title">Kernel</p>
+        <ul class="distro-list">
+          <li class="distro-list">Linux 4.9</li>
+        </ul>
+        <p class="distro-list-title">Userland</p>
+        <ul class="distro-list">
+          <li class="distro-list">GNU</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://getfedora.org/" target="_blank">
+          <img src="img/fedoralogo.png" alt="Fedora Linux Logo" class="distro-image">
+        </a>
+        <p class="distro-list-title">Overview</p>
+        <ul class="distro-list">
+          <li class="distro-list">Essentially the free testing version of Red Hat Enterprise Linux, super stable, great for work and servers, features SELinux created by Red Hat and the National Security Agency</li>
+        </ul>
+        <p class="distro-list-title">Package Manager</p>
+        <ul class="distro-list">
+          <li class="distro-list">DNF</li>
+        </ul>
+        <p class="distro-list-title">Kernel</p>
+        <ul class="distro-list">
+          <li class="distro-list">Linux 4.18</li>
+        </ul>
+        <p class="distro-list-title">Userland</p>
+        <ul class="distro-list">
+          <li class="distro-list">GNU</li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://www.ubuntu.com/">
+          <img src="img/ubuntulogo.svg" alt="Ubuntu Linux Logo" class="distro-image">
+        </a>
+        <p class="distro-list-title">Overview</p>
+        <ul class="distro-list">
+          <li class="distro-list">Based on Debian, this is the most common Linux distro in the world, very user and beginner friendly, developed by a company named Canonical Ltd.</li>
+        </ul>
+        <p class="distro-list-title">Package Manager</p>
+        <ul class="distro-list">
+          <li class="distro-list">dpkg, APT, PPA</li>
+        </ul>
+        <p class="distro-list-title">Kernel</p>
+        <ul class="distro-list">
+          <li class="distro-list">Linux 4.18</li>
+        </ul>
+        <p class="distro-list-title">Userland</p>
+        <ul class="distro-list">
+          <li class="distro-list">GNU</li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <a href="https://www.github.com/atwmll" class="footer-link">My GitHub</a>
+        <br />
+        <a href="https://www.linuxfoundation.org" class="footer-link">More about Linux and the Foundation</a>
+      </div>
+    </footer>
   </body>
 </html>

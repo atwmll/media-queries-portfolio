@@ -88,6 +88,7 @@
   flex-direction: row;
   background-color: #e5fff7;
   border: 2px;
+  font-family: 'Asap', sans-serif;
 }
 
 .navbar > div {
@@ -102,6 +103,7 @@
 div > a {
   background-color: #a4d6c7;
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -119,7 +121,78 @@ a:hover {
   background-color: #a4d6c7;
   width: auto;
   margin: 10px;
-  text-align: center;
   line-height: 90px;
   font-size: 30px;
+}
+
+.distro-image {
+  height: 6em;
+  width: 14em;
+}
+
+.distro-list-title {
+  line-height: 0px;
+  font-size: 1em;
+  background-color: #a4d6c7;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.distro-list {
+  line-height: 1em;
+  font-size: .75em;
+  background-color: #a4d6c7;
+  font-weight: bold;
+  font-family: 'Asap', sans-serif;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background-color: inherit;
+  color: black;
+  font-size: 30px;
+}
+
+.header-text {
+  font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.header-subtext {
+  font-size: 1em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.sidebar {
+  width: 130px;
+  position: static;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  display: block;
+  font-family: 'Asap', sans-serif;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Asap', sans-serif;
+  background-color: #BCCCCA;
+}
+
+.footer-link {
+  background-color: #BCCCCA;
 }
