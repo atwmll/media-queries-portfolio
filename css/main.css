@@ -123,11 +123,13 @@ a:hover {
   margin: 10px;
   line-height: 90px;
   font-size: 30px;
+  text-align: center;
 }
 
 .distro-image {
   height: 6em;
   width: 14em;
+  border: .5em solid black;
 }
 
 .distro-list-title {
@@ -135,6 +137,7 @@ a:hover {
   font-size: 1em;
   background-color: #a4d6c7;
   font-family: 'Permanent Marker', cursive;
+  text-align: left;
 }
 
 .distro-list {
@@ -143,6 +146,7 @@ a:hover {
   background-color: #a4d6c7;
   font-weight: bold;
   font-family: 'Asap', sans-serif;
+  text-align: left;
 }
 
 .header {
