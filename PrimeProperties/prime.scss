@@ -1,6 +1,8 @@
+// Variables
 $bgColor: #000033;
 $textSize: 1.2em;
 $marginVal: auto;
+// Mixin
 @mixin wrap {
   width: 80%;
              min-width: 700px;
@@ -13,13 +15,14 @@ $marginVal: auto;
   		   border-radius: 15px;
   		   box-shadow: inset -3px -3px 3px 3px #00332B;
 }
+// Function
 @function indent-math($firstNum, $secondNum) {
   @return $firstNum + $secondNum - 150
 }
 header, nav, main, footer { display: block; }
-body { background-color: $bgColor;
+body { background-color: $bgColor; // variables
       background-image: url(primehorizontal.png);
-      color: $bgColor;
+      color: $bgColor; // variables
 	  font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper {
@@ -40,7 +43,7 @@ h3 { color: #006600;
     padding-top: 10px;
 }
 nav { font-weight: bold;
-     font-size: $textSize;
+     font-size: $textSize; // variables
 	 float: left;
 	 width: 150px;
 }
@@ -61,13 +64,13 @@ nav ul { list-style-type: none;
         padding-left: 0;
 }
 main { $marginVal: 180px;
-        margin-left: $marginVal;
+        margin-left: $marginVal; // variables
         padding: 0 20px 20px 0;
 }
 main ul { list-style-position: inside; }
 dd { font-style: italic;
-    $textSize: 0.90em;
-    font-size: $textSize;
+    $textSize: 0.90em; // variables
+    font-size: $textSize; //  variables
 	line-height: 200%;
 }
 .contact { font-weight: bold;
