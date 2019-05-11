@@ -132,6 +132,12 @@ a:hover {
   border: .5em solid black;
 }
 
+.git-image {
+  height: 6em;
+  width: 14em;
+  border: .5em solid black;
+}
+
 .distro-list-title {
   line-height: 0px;
   font-size: 1em;
@@ -140,9 +146,26 @@ a:hover {
   text-align: left;
 }
 
+.git-list-title {
+  line-height: 0px;
+  font-size: 1.25em;
+  background-color: #a4d6c7;
+  font-family: 'Permanent Marker', cursive;
+  text-align: left;
+}
+
 .distro-list {
   line-height: 1em;
   font-size: .75em;
+  background-color: #a4d6c7;
+  font-weight: bold;
+  font-family: 'Asap', sans-serif;
+  text-align: left;
+}
+
+.git-list {
+  line-height: 1em;
+  font-size: 1em;
   background-color: #a4d6c7;
   font-weight: bold;
   font-family: 'Asap', sans-serif;
@@ -159,6 +182,11 @@ a:hover {
 
 .header-text {
   font-size: 2em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.header-text-large {
+  font-size: 3em;
   font-family: 'Permanent Marker', cursive;
 }
 
